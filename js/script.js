@@ -27,7 +27,7 @@ const projects = [
         title: "Personal portfolio",
         category: "web",
         description: "Personal portfolio with my info, skills, and work",
-        image: "images/projects/web/portfolio.png",
+        image: "images/projects/web/portfolio.jpg",
         link: "https://pro-seka.github.io/My-personal-portfolio-website/",
         tags: ["JavaScript", "API", "CSS"]
     },
