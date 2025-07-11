@@ -1,4 +1,4 @@
-# Sakib's Vault 🔐
+# Sakib's Vault 📂
 
 Welcome to Sakib's Vault — a collection of my personal projects, games, tools, and experiments.  
 This repo shows what I’ve built and what I’m working on as I learn and grow.
