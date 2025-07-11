@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase of projects by Sakib Hasan - developer, creator, and dream chaser">
+    <meta property="og:title" content="Sakib Hasan's Project Vault">
+    <meta property="og:description" content="Explore my creations - web projects, games, tools, and experiments">
+    <meta property="og:image" content="images/social/share-image.jpg">
+    <meta property="og:url" content="https://sakibhasan.dev">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Sakib Hasan | Project Vault</title>
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes/default.css" id="theme-style">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="jellyfish-loader">
+            <div class="tentacle"></div>
+            <div class="tentacle"></div>
+            <div class="tentacle"></div>
+            <div class="glow"></div>
+        </div>
+        <p>Loading creativity...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Sakib<span>Hasan</span></a>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="theme-switcher">
+                    <button class="theme-btn" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+                    <div class="theme-panel">
+                        <button class="theme-option" data-theme="default" title="Jellyfish Glow"></button>
+                        <button class="theme-option" data-theme="aurora" title="Aurora Night"></button>
+                        <button class="theme-option" data-theme="darktech" title="Dark Tech"></button>
+                        <button class="theme-option" data-theme="sunset" title="Sunset Blaze"></button>
+                        <button class="theme-option" data-theme="cybermint" title="Cyber Mint"></button>
+                        <button class="theme-option" data-theme="galaxy" title="Galaxy Candy"></button>
+                        <button class="theme-option" data-theme="minimal" title="Minimal Light"></button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="fluid-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>Explore My</span>
+                    <span class="typewriter" data-words='["Creations", "Projects", "Experiments", "Dreams"]'></span>
+                </h1>
+                <p class="hero-subtitle">Developer | Dream Chaser | Explorer</p>
+                <p class="hero-text">Hi, I'm Sakib Hasan — a passionate software engineering student who loves building cool and practical things.</p>
+                <p class="hero-text">Welcome to my digital playground, where you'll find a collection of my web projects, games, tools, and creative experiments.</p>
+</p>
+                <a href="#projects" class="btn btn-primary">Start Exploring</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Project Vault</h2>
+            <p class="section-subtitle">Have a look at my projects</p>
+            
+            <!-- Project Filter -->
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Projects</button>
+                <button class="filter-btn" data-filter="games">Games</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+                <button class="filter-btn" data-filter="experiments">Experiments</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Projects will be dynamically loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a question or want to collaborate?</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> sakibhasan2005bd@gmail.com</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Pro-seka" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/sakib.hasan.319945" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@thesakiib" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/sakibhasan-dev/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Sakib Hasan. All rights reserved.</p>
+            <a href="#" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/themeSwitcher.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

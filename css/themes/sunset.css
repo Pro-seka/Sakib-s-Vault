@@ -1,0 +1,29 @@
+/* Sunset Theme - Warm Colors */
+:root {
+    --color-primary: #f97316;       /* Vibrant Orange */
+    --color-secondary: #f59e0b;     /* Amber */
+    --color-accent: #ec4899;        /* Pink */
+    --color-text: #f8fafc;          /* White */
+    --color-bg: #1e1b4b;            /* Deep Indigo */
+    --color-card-bg: #312e81;
+    --color-nav-bg: rgba(30, 27, 75, 0.8);
+    --color-btn-text: #ffffff;
+    --color-btn-hover: #fb923c;
+    
+    --fluid-gradient: radial-gradient(circle at 30% 50%, 
+        rgba(249, 115, 22, 0.15) 0%, 
+        rgba(30, 27, 75, 0.9) 70%);
+}
+
+.fluid-background {
+    background: var(--fluid-gradient);
+}
+
+.project-card {
+    border: 1px solid rgba(249, 115, 22, 0.2);
+}
+
+.project-card:hover {
+    border-color: rgba(249, 115, 22, 0.5);
+    box-shadow: 0 15px 30px rgba(249, 115, 22, 0.2);
+}

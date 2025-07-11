@@ -1,0 +1,30 @@
+/* Default Theme - Jellyfish Glow */
+:root {
+    --color-primary: #9333ea;       /* Neon Purple */
+    --color-secondary: #06b6d4;     /* Aqua */
+    --color-accent: #f472b6;        /* Glow Pink */
+    --color-text: #f8fafc;          /* Accent White */
+    --color-bg: #0f172a;            /* Deep Blue */
+    --color-card-bg: #1e293b;
+    --color-nav-bg: rgba(15, 23, 42, 0.8);
+    --color-btn-text: #ffffff;
+    --color-btn-hover: #a855f7;
+    
+    /* Fluid background gradient */
+    --fluid-gradient: radial-gradient(circle at 30% 50%, 
+        rgba(147, 51, 234, 0.15) 0%, 
+        rgba(15, 23, 42, 0.9) 70%);
+}
+
+.fluid-background {
+    background: var(--fluid-gradient);
+}
+
+.project-card {
+    border: 1px solid rgba(147, 51, 234, 0.2);
+}
+
+.project-card:hover {
+    border-color: rgba(147, 51, 234, 0.5);
+    box-shadow: 0 15px 30px rgba(147, 51, 234, 0.2);
+}

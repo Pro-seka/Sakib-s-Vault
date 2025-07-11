@@ -1,0 +1,30 @@
+/* Dark Tech Theme - Cyberpunk */
+:root {
+    --color-primary: #00ff9d;       /* Neon Green */
+    --color-secondary: #00b4ff;     /* Electric Blue */
+    --color-accent: #ff2d75;        /* Hot Pink */
+    --color-text: #e2e2e2;          /* Light Gray */
+    --color-bg: #0a0a0a;            /* Pure Black */
+    --color-card-bg: #1a1a1a;
+    --color-nav-bg: rgba(10, 10, 10, 0.9);
+    --color-btn-text: #000000;
+    --color-btn-hover: #00e38c;
+    
+    --fluid-gradient: radial-gradient(circle at 30% 50%, 
+        rgba(0, 255, 157, 0.1) 0%, 
+        rgba(10, 10, 10, 0.95) 80%);
+}
+
+.fluid-background {
+    background: var(--fluid-gradient);
+}
+
+.project-card {
+    border: 1px solid rgba(0, 255, 157, 0.3);
+}
+
+.project-card:hover {
+    border-color: rgba(0, 255, 157, 0.7);
+    box-shadow: 0 15px 30px rgba(0, 255, 157, 0.15),
+                0 0 10px rgba(0, 255, 157, 0.1);
+}

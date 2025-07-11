@@ -1,0 +1,30 @@
+/* Cyber Mint Theme - Futuristic */
+:root {
+    --color-primary: #00ffc2;       /* Mint Green */
+    --color-secondary: #0095ff;     /* Electric Blue */
+    --color-accent: #ff00aa;        /* Neon Pink */
+    --color-text: #d1fae5;          /* Light Mint */
+    --color-bg: #111827;            /* Dark Blue-Gray */
+    --color-card-bg: #1f2937;
+    --color-nav-bg: rgba(17, 24, 39, 0.9);
+    --color-btn-text: #111827;
+    --color-btn-hover: #00e0a8;
+    
+    --fluid-gradient: radial-gradient(circle at 30% 50%, 
+        rgba(0, 255, 194, 0.1) 0%, 
+        rgba(17, 24, 39, 0.95) 80%);
+}
+
+.fluid-background {
+    background: var(--fluid-gradient);
+}
+
+.project-card {
+    border: 1px solid rgba(0, 255, 194, 0.3);
+}
+
+.project-card:hover {
+    border-color: rgba(0, 255, 194, 0.7);
+    box-shadow: 0 15px 30px rgba(0, 255, 194, 0.15),
+                0 0 10px rgba(0, 255, 194, 0.1);
+}

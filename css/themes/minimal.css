@@ -1,0 +1,30 @@
+/* Minimal Theme - Clean & Simple */
+:root {
+    --color-primary: #64748b;       /* Slate */
+    --color-secondary: #94a3b8;     /* Light Slate */
+    --color-accent: #475569;        /* Dark Slate */
+    --color-text: #1e293b;          /* Dark Blue */
+    --color-bg: #f8fafc;            /* Light Gray */
+    --color-card-bg: #ffffff;
+    --color-nav-bg: rgba(248, 250, 252, 0.9);
+    --color-btn-text: #ffffff;
+    --color-btn-hover: #94a3b8;
+    
+    --fluid-gradient: linear-gradient(135deg, 
+        rgba(248, 250, 252, 0.9) 0%, 
+        rgba(226, 232, 240, 0.9) 100%);
+}
+
+.fluid-background {
+    background: var(--fluid-gradient);
+}
+
+.project-card {
+    border: 1px solid rgba(100, 116, 139, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+    border-color: rgba(100, 116, 139, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
