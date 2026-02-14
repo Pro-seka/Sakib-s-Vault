@@ -51,11 +51,11 @@ const projects = [
     },
     {
         id: 4,
-        title: "Coming Soon..",
+        title: "Be My Valentine?",
         category: "experiments",
-        description: "Project launching soon !!",
-        image: "images/projects/experiments/soon.jpg",
-        link: "https://github.com/sakibhasan/ai-art-generator",
+        description: "A fun interactive project",
+        image: "images/projects/experiments/Valentine.jpg",
+        link: "https://pro-seka.github.io/Be-My-Valentine/",
         tags: ["Python", "TensorFlow", "Flask"]
     },
     {
@@ -293,3 +293,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
